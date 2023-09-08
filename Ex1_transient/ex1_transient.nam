@@ -1,0 +1,20 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+  LIST ex1_transient.out                
+  PRINT_INPUT                           
+  PRINT_FLOWS                           
+  SAVE_FLOWS                            
+END OPTIONS                             
+                                        
+BEGIN PACKAGES                          
+  DIS6  ex1_transient.dis               
+  OC6  ex1_transient.oc                 
+  WEL6  ex1_transient.wel               
+  CHD6  ex1_transient.chd               
+  NPF6 ex1_transient.npf                
+  IC6 ex1_transient.ic   
+  STO6 ex1_transient.sto   
+END PACKAGES                            
